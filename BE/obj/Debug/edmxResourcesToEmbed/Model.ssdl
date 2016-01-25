@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PeopleDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Candidate">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BirthDate" Type="date" Nullable="false" />
+    <Property Name="Height" Type="float" Nullable="false" />
+    <Property Name="Ethnical" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="HighSchool" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Service" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Employment" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Info" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ThirdParty" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sector" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Hobbies" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LookingNature" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LookingAppearance" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AgeRange" Type="nvarchar" MaxLength="50" />
+    <Property Name="More" Type="nvarchar" MaxLength="50" />
+    <Property Name="Pic1" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Pic2" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Shagrir">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Reputation" Type="int" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BirthDate" Type="date" Nullable="false" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ShagrirCandidate">
+    <Key>
+      <PropertyRef Name="ShagrirId" />
+      <PropertyRef Name="CandidateId" />
+    </Key>
+    <Property Name="ShagrirId" Type="int" Nullable="false" />
+    <Property Name="CandidateId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_ShagrirCandidate_Candidate">
+    <End Role="Candidate" Type="Self.Candidate" Multiplicity="1" />
+    <End Role="ShagrirCandidate" Type="Self.ShagrirCandidate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Candidate">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ShagrirCandidate">
+        <PropertyRef Name="CandidateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ShagrirCandidate_Shagrir">
+    <End Role="Shagrir" Type="Self.Shagrir" Multiplicity="1" />
+    <End Role="ShagrirCandidate" Type="Self.ShagrirCandidate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shagrir">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ShagrirCandidate">
+        <PropertyRef Name="ShagrirId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PeopleDBModelStoreContainer">
+    <EntitySet Name="Candidate" EntityType="Self.Candidate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Shagrir" EntityType="Self.Shagrir" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ShagrirCandidate" EntityType="Self.ShagrirCandidate" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ShagrirCandidate_Candidate" Association="Self.FK_ShagrirCandidate_Candidate">
+      <End Role="Candidate" EntitySet="Candidate" />
+      <End Role="ShagrirCandidate" EntitySet="ShagrirCandidate" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ShagrirCandidate_Shagrir" Association="Self.FK_ShagrirCandidate_Shagrir">
+      <End Role="Shagrir" EntitySet="Shagrir" />
+      <End Role="ShagrirCandidate" EntitySet="ShagrirCandidate" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

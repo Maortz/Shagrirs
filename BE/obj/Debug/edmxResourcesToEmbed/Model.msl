@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PeopleDBModelStoreContainer" CdmEntityContainer="PeopleDBEntities">
+    <EntitySetMapping Name="Candidates">
+      <EntityTypeMapping TypeName="PeopleDBModel.Candidate">
+        <MappingFragment StoreEntitySet="Candidate">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Ethnical" ColumnName="Ethnical" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="HighSchool" ColumnName="HighSchool" />
+          <ScalarProperty Name="Service" ColumnName="Service" />
+          <ScalarProperty Name="Employment" ColumnName="Employment" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="ThirdParty" ColumnName="ThirdParty" />
+          <ScalarProperty Name="Sector" ColumnName="Sector" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="LookingNature" ColumnName="LookingNature" />
+          <ScalarProperty Name="LookingAppearance" ColumnName="LookingAppearance" />
+          <ScalarProperty Name="AgeRange" ColumnName="AgeRange" />
+          <ScalarProperty Name="More" ColumnName="More" />
+          <ScalarProperty Name="Pic1" ColumnName="Pic1" />
+          <ScalarProperty Name="Pic2" ColumnName="Pic2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shagrirs">
+      <EntityTypeMapping TypeName="PeopleDBModel.Shagrir">
+        <MappingFragment StoreEntitySet="Shagrir">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Reputation" ColumnName="Reputation" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ShagrirCandidate" TypeName="PeopleDBModel.ShagrirCandidate" StoreEntitySet="ShagrirCandidate">
+      <EndProperty Name="Candidate">
+        <ScalarProperty Name="Id" ColumnName="CandidateId" />
+      </EndProperty>
+      <EndProperty Name="Shagrir">
+        <ScalarProperty Name="Id" ColumnName="ShagrirId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,8 @@
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BE\bin\Debug\BE.dll.config
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BE\bin\Debug\BE.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BE\bin\Debug\BE.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BE\bin\Debug\EntityFramework.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BE\bin\Debug\EntityFramework.xml
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BE\obj\Debug\BE.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BE\obj\Debug\BE.pdb

@@ -1,0 +1,14 @@
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\bin\Debug\BackendChecker.exe.config
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\bin\Debug\BackendChecker.exe
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\bin\Debug\BackendChecker.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\bin\Debug\BE.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\bin\Debug\BLBackend.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\bin\Debug\DAL.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\bin\Debug\EntityFramework.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\bin\Debug\BE.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\bin\Debug\BLBackend.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\bin\Debug\DAL.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\bin\Debug\EntityFramework.xml
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\obj\Debug\BackendChecker.csprojResolveAssemblyReference.cache
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\obj\Debug\BackendChecker.exe
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BackendChecker\obj\Debug\BackendChecker.pdb

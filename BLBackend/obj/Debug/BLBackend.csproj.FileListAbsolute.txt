@@ -1,0 +1,11 @@
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLBackend\bin\Debug\BLBackend.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLBackend\bin\Debug\BLBackend.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLBackend\bin\Debug\BE.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLBackend\bin\Debug\DAL.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLBackend\bin\Debug\EntityFramework.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLBackend\bin\Debug\BE.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLBackend\bin\Debug\DAL.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLBackend\bin\Debug\EntityFramework.xml
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLBackend\obj\Debug\BLBackend.csprojResolveAssemblyReference.cache
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLBackend\obj\Debug\BLBackend.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLBackend\obj\Debug\BLBackend.pdb

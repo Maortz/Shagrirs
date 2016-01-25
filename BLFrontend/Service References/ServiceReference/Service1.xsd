@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BE" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BE" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfShagrir">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Shagrir" nillable="true" type="tns:Shagrir" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfShagrir" nillable="true" type="tns:ArrayOfShagrir" />
+  <xs:complexType name="Shagrir">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BirthDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Candidates" nillable="true" type="tns:ArrayOfCandidate" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Reputation" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Shagrir" nillable="true" type="tns:Shagrir" />
+  <xs:complexType name="ArrayOfCandidate">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Candidate" nillable="true" type="tns:Candidate" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCandidate" nillable="true" type="tns:ArrayOfCandidate" />
+  <xs:complexType name="Candidate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgeRange" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BirthDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Employment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ethnical" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Height" type="xs:double" />
+      <xs:element minOccurs="0" name="HighSchool" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Hobbies" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Info" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LookingAppearance" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LookingNature" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="More" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pic1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pic2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sector" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Service" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Shagrirs" nillable="true" type="tns:ArrayOfShagrir" />
+      <xs:element minOccurs="0" name="ThirdParty" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Candidate" nillable="true" type="tns:Candidate" />
+</xs:schema>

@@ -1,0 +1,14 @@
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\bin\WcfService.dll.config
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\bin\WcfService.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\bin\WcfService.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\obj\Debug\WcfService.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\obj\Debug\WcfService.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\bin\BE.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\bin\BLBackend.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\bin\EntityFramework.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\bin\DAL.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\bin\BE.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\bin\BLBackend.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\bin\EntityFramework.xml
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\WcfService\bin\DAL.pdb

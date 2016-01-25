@@ -1,0 +1,10 @@
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLFrontend\obj\Debug\BLFrontend.csprojResolveAssemblyReference.cache
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLFrontend\bin\Debug\BLFrontend.dll.config
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLFrontend\bin\Debug\BLFrontend.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLFrontend\bin\Debug\BLFrontend.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLFrontend\bin\Debug\BE.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLFrontend\bin\Debug\EntityFramework.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLFrontend\bin\Debug\BE.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLFrontend\bin\Debug\EntityFramework.xml
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLFrontend\obj\Debug\BLFrontend.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\BLFrontend\obj\Debug\BLFrontend.pdb

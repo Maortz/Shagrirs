@@ -1,0 +1,9 @@
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\DAL\bin\Debug\DAL.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\DAL\bin\Debug\DAL.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\DAL\bin\Debug\BE.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\DAL\bin\Debug\BE.pdb
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\DAL\obj\Debug\DAL.dll
+C:\Users\Maor\Documents\Visual Studio 2013\Projects\Shagrirs\DAL\obj\Debug\DAL.pdb
